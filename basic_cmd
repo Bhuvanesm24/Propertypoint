@@ -1,0 +1,9 @@
+
+For generating json report
+
+behave -f allure_behave.formatter:AllureFormatter -o Reports/ features/
+
+For generating allure report
+
+Go to project folder, then enter cmd in path place
+on comand promt we enter cmd >allure serve Reports
